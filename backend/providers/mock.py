@@ -159,7 +159,7 @@ _SCENARIO_B_STANCES: Dict[str, str] = {
 _SCENARIO_B_PROBING: Dict[str, str] = {
     "excluded_option": (
         "OPTION: membership-platform\n"
-        "CANONICAL: buy-vs-build\n"
+        "CANONICAL: membership-platform\n"
         "NOVELTY: you_probably_didnt_know\n"
         "REASON: You excluded 'use a membership platform' because you assumed "
         "payment must be integrated by you. Ghost/Gumroad/Paddle deliver the "
