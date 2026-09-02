@@ -150,9 +150,8 @@ bias-flag → independent divergence → forced cross-examination → option map
 
 Full details: `doc-ja/decision-space-expansion/literature.md` (Japanese).
 
-## Repos
+## Related work
 
-- `llm-council` — http://192.168.1.21:3000/dev/llm-council (Forgejo private)
-- `decision-workbench` — http://192.168.1.21:3000/dev/decision-workbench (Forgejo private)
-- Methodology skill: `decision-space-expansion` (Hermes Agent)
+- `llm-council` — multi-model deliberation committee (the Karpathy-origin project this methodology builds on)
+- This repository — the decision-workbench implementation
 - Japanese docs: `doc-ja/decision-space-expansion/`

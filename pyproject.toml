@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Expand the decision-maker's cognition BEFORE they decide. Diverges options, reveals blind spots, hands the decision back to a human."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "SS", email = "sscodeai@users.noreply.github.com" },
+]
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
