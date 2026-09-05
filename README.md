@@ -18,23 +18,22 @@ Paste a decision you're about to make — including what you already know.
 Decision Workbench runs a 6-stage pipeline:
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  1. BIAS FLAG      "I only know Java Spring" → anchored_stack    │
-│  2. DIVERGENCE     5 stances argue independently (parallel):    │
-│                    🏛️ architect · 💰 cost · 🛡️ security          │
-│                    📦 product · 🔴 red team                       │
-│  3. CROSS-EXAM     3 probing questions force the space open:    │
-│                    "Why did you NOT consider X?"                │
-│                    "Give one non-mainstream option w/ reason"   │
-│                    "Weakest point of your preferred option?"    │
-│  4. OPTION MAP     consensus / true divergence / false          │
-│                    divergence, each tagged "you probably didn't │
-│                    know this" vs "you already knew this"         │
-│  5. CONSTRAINTS    you check budget/team/deadline/compliance →  │
-│                    weighted re-score (still no winner)          │
-│  6. HUMAN DECISION the decision is yours. The system never      │
-│                    picks.                                        │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│  1. BIAS FLAG       "I only know Java Spring" → anchored_stack       │
+│  2. DIVERGENCE      5 stances argue independently (parallel):        │
+│                     🏛️ architect · 💰 cost · 🛡️ security           │
+│                     📦 product · 🔴 red team                         │
+│  3. CROSS-EXAM      3 probing questions force the space open:        │
+│                     "Why did you NOT consider X?"                    │
+│                     "Give one non-mainstream option w/ reason"       │
+│                     "Weakest point of your preferred option?"        │
+│  4. OPTION MAP      consensus / true divergence / false divergence,  │
+│                     each tagged "you probably didn't know this" vs   │
+│                     "you already knew this"                          │
+│  5. CONSTRAINTS     you check budget/team/deadline/compliance →      │
+│                     weighted re-score (still no winner)              │
+│  6. HUMAN DECISION  the decision is yours. The system never picks.   │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Why this exists (and why it is NOT llm-council)
